@@ -12,7 +12,7 @@ body {
 }
 #logo-cont {
     position: relative;
-    top: 300px;
+    top: 200px;
 }
 #logo1:nth-child(1) {
     stroke-dasharray: 554px;

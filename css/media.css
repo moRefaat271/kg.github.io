@@ -1,5 +1,8 @@
 /*Smart Phones & Tablets*/
 @media(max-width: 767px) {
+    #logo-cont {
+        height: 200px;
+    }
 .fixed-logo {
     margin-top: -25px;
 }
@@ -15,7 +18,7 @@
     margin-top: 9px;
 }
 .carousel-caption {
-    left: -24%;
+    left: -12%;
     padding-bottom: 265px;
     min-width: 500px;
 }
@@ -36,12 +39,15 @@
     font-size: 15px;
     font-family: serif;
     height: 21px;
-    margin-left: 100px;
+    margin-left: 120px;
 
 }
 /*Small Screen*/
 @media(min-width: 768px) and (max-width: 991px) {
-
+  #logo-cont {
+        height: 200px;
+        left: 58px;
+    }
 }
 /*Medium Screen*/
 @media(min-width: 992px) and (max-width: 1199px) {
