@@ -26,7 +26,7 @@ setTimeout(function (){
         
 
         })
-        },0000)
+        },10000)
 setTimeout(function destroyLogo() {
     'use strict';
     $('#logo1').css({animation: 'rem1-line-anim 2s ease forwards'})
