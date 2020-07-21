@@ -17,7 +17,7 @@ setTimeout(function (){
             $('.width-change3').animate({width: '498.52px', opacity: '1'},3000,function () {
                 'use strict';
                 $('.width-change3').css({background: 'none'})
-              $('.width-change4').animate({width: '111.47px', opacity: '1',color: 'white'},3000,function () {
+              $('.width-change4').animate({width: '120px', opacity: '1',color: 'white'},3000,function () {
                   'use strict';
                   $('.width-change4').css({color: 'white'})
               })  

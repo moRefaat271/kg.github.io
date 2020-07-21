@@ -104,10 +104,15 @@ body {
 .fixed-logo {
     display: none;
      z-index: 99;
+     font-size: 27px;
 }
 .fixed-logo div img {
     width: 60px;
      height: 60px
+}
+.owner {
+    margin-top: 12px;
+    z-index: 99;
 }
 .width-change2,
 .width-change3,
