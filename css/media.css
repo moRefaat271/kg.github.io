@@ -1,11 +1,19 @@
 /*Smart Phones & Tablets*/
 @media(max-width: 767px) {
-
-.fixed-logo div img {
-    width: 30px;
-    height: 30px
+.fixed-logo {
+    margin-top: -25px;
 }
-
+.fixed-logo div img {
+    width: 50px;
+    height: 50px;
+    margin-top: -9px;
+}
+.fixed-logo .menu {
+    font-size: 27px;
+}
+.width-change2 {
+    margin-top: 9px;
+}
 .carousel-caption {
     left: -24%;
     padding-bottom: 265px;
