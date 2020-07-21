@@ -1,0 +1,147 @@
+/*Start Loading*/
+body {
+}
+
+.loading {
+    position: fixed ;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    z-index: 9999
+}
+#logo-cont {
+    position: relative;
+    top: 300px;
+}
+#logo1:nth-child(1) {
+    stroke-dasharray: 554px;
+    stroke-dashoffset: 554px;
+    animation: line-anim 2s ease forwards;
+}
+#logo2:nth-child(1) {
+    stroke-dasharray: 107.00025177001953px;
+    stroke-dashoffset: 107.00025177001953px;
+    animation: line-anim 1s ease forwards 1.5s;
+}
+#logo3:nth-child(1) {
+    stroke-dasharray: 107.00003051757812px;
+    stroke-dashoffset: 107.00003051757812px;
+    animation: line-anim 1s ease forwards 2.5s;
+}
+#logo4:nth-child(1) {
+    stroke-dasharray: 75px;
+    stroke-dashoffset: 75px;
+    animation: line-anim 1s ease forwards 3.5s;
+}
+#logo5:nth-child(1) {
+    stroke-dasharray: 47.99967956542969px;
+    stroke-dashoffset: 47.99967956542969px;
+    animation: line-anim 1s ease forwards 4s;
+}
+#logo6:nth-child(1) {
+    stroke-dasharray: 55.00008010864258px;
+    stroke-dashoffset: 55.00008010864258px;
+    animation: line-anim 1s ease forwards 5s;
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes rem1-line-anim {
+    from {
+        stroke-dashoffset: 0;
+    }    
+    to {
+        stroke-dashoffset: 554px;
+    }
+}
+@keyframes rem2-line-anim {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: 107.00025177001953px;
+    }
+}
+@keyframes rem3-line-anim {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: 107.00003051757812px;
+    }
+}
+@keyframes rem4-line-anim {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: 75px;
+    }
+}
+@keyframes rem5-line-anim {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: 47.99967956542969px;
+    }
+}
+@keyframes rem6-line-anim {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: 55.00008010864258px;
+    }
+}
+/*End Loading*/
+
+/*Start Slider*/
+.width-change2,
+.width-change3,
+.width-change4 {
+    
+    width: 0;
+    opacity: 0;
+}
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {  
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+}
+.carousel-caption {
+    left: -24%;
+    padding-bottom: 265px;
+    min-width: 500px;
+}
+.carousel-caption .title {
+    background: black;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: -12px;
+    float: left;
+    color: black;
+    font-family: serif;
+}
+.carousel-caption .caption {
+    color: black;
+    padding: -1px;
+    float: left;
+    background-color: black;
+    font-size: 17px;
+    font-family: serif;
+    height: 24px;
+    margin-left: 60px;
+}
+/*End Slider*/
