@@ -101,6 +101,14 @@ body {
 /*End Loading*/
 
 /*Start Slider*/
+.fixed-logo {
+    display: none;
+     z-index: 99;
+}
+.fixed-logo div img {
+    width: 60px;
+     height: 60px
+}
 .width-change2,
 .width-change3,
 .width-change4 {

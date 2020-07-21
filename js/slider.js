@@ -12,7 +12,7 @@ setTimeout(function (){
         'use strict';
     $('body').css({overflow: 'auto'})
     $('.fixed-logo').fadeIn(3000);
-        $('.width-change2').animate({width: '400px',opacity: '1'},3000,function () {
+        $('.width-change2').animate({width: '100%',opacity: '1'},3000,function () {
             'use strict';
             $('.width-change3').animate({width: '498.52px', opacity: '1'},3000,function () {
                 'use strict';
@@ -26,7 +26,7 @@ setTimeout(function (){
         
 
         })
-        },10000)
+        },0000)
 setTimeout(function destroyLogo() {
     'use strict';
     $('#logo1').css({animation: 'rem1-line-anim 2s ease forwards'})
@@ -72,7 +72,4 @@ setTimeout(function destroyLogo() {
       },*/
       spaceBetween: 500,
       loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-      },
     });

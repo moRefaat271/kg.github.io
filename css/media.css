@@ -1,6 +1,34 @@
 /*Smart Phones & Tablets*/
 @media(max-width: 767px) {
 
+.fixed-logo div img {
+    width: 30px;
+    height: 30px
+}
+
+.carousel-caption {
+    left: -24%;
+    padding-bottom: 265px;
+    min-width: 500px;
+}
+.carousel-caption .title {
+    background: black;
+    font-size: 55px;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    float: left;
+    color: black;
+    font-family: serif;
+}
+.carousel-caption .caption {
+    color: black;
+    padding: -1px;
+    float: left;
+    background-color: black;
+    font-size: 15px;
+    font-family: serif;
+    height: 21px;
+    margin-left: 100px;
 
 }
 /*Small Screen*/
