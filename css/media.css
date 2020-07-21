@@ -1,9 +1,8 @@
 /*Smart Phones & Tablets*/
 @media(max-width: 767px) {
-    #logo-cont {
-        height: 200px;
-        left: -30px;
-    }
+ #logo-cont {
+    left: 27%;
+ } 
 .fixed-logo {
     margin-top: -25px;
 }
@@ -49,25 +48,18 @@
 }
 /*Small Screen*/
 @media(min-width: 768px) and (max-width: 991px) {
-  #logo-cont {
-        height: 200px;
-        left: 48px;
-    }
+ #logo-cont {
+    left: 40%;
+ }
 }
 /*Medium Screen*/
 @media(min-width: 992px) and (max-width: 1199px) {
- #logo-cont {
-        height: 200px;
-        left: 100px;
-    }
+
 
 }
 /*Large Screen*/
 @media(min-width: 1200px) {
-#logo-cont {
-        height: 200px;
-        left: 115px;
-    }
+
 
 }
 

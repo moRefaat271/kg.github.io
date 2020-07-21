@@ -11,8 +11,10 @@ body {
     z-index: 9999
 }
 #logo-cont {
-    position: relative;
-    top: 200px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    text-align: center;
 }
 #logo1:nth-child(1) {
     stroke-dasharray: 554px;
